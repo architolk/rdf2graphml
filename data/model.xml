@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> 
+  <rdf:Description rdf:about="urn:mijnklasse">
+    <rdfs:label>mijn klasse</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:mijnklasse-shape">
+    <sh:property rdf:nodeID="A0"/>
+    <sh:name>urn:mijnklasse</sh:name>
+    <sh:targetClass rdf:resource="urn:mijnklasse"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+    <sh:name>rdfs:label</sh:name>
+    <sh:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </rdf:Description>
+</rdf:RDF>

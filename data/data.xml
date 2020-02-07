@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:j.0="urn:"> 
+  <rdf:Description rdf:about="urn:mijnklasse">
+    <rdfs:label>mijn klasse</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:mijntest">
+    <j.0:mijnproperty>doei</j.0:mijnproperty>
+    <rdf:type rdf:resource="urn:mijnklasse"/>
+  </rdf:Description>
+</rdf:RDF>
