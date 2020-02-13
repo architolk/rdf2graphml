@@ -14,8 +14,8 @@ The transformation itself is performed by the Saxon XSL engine. XML stylesheets 
 ## Usage
 
 ```
-rdf2graph -d <RDF-input-file> <GraphML-output-file>
-rdf2graph -m <RDF-input-file> <GraphML-output-file>
+java -jar rdf2graphml -d <RDF-input-file> <GraphML-output-file>
+java -jar rdf2graphml -m <RDF-input-file> <GraphML-output-file>
 ```
 
 The first usage will create a GraphML visualization of the actual data (a graph structure from the triples). The second usage will create a GraphML visualization of a RDFS/OWL/SHACL model, resembling the way a UML or ERD data model is presented.
